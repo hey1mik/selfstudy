@@ -42,6 +42,8 @@ public class CellphoneMmsSenderTest {
 		//Then - 행위 검증 : CellPhoneService.sendMMS를 수정했는지 여부
 		verify(mockCellPhoneService).sendMMS(message);
 		
+		
+		
 	}
 	
 }
